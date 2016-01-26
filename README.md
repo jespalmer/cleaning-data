@@ -15,9 +15,19 @@ In order to run the script, you must first download the [Human Activity Recognit
 1. Download the [zip file] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) of the data set
 2. Move the zip file to the appropriate directory
 3. Un-zip the file
-4. Move the "run_analysis.R" script to the same directory that you un-zipped the file, so it is in the root folder
-5. You can now run the R script
+4. Move the "run_analysis.R" script to the same directory that you un-zipped the file, so your root folder looks like this:
+```
+  ├── UCI HAR Dataset
+  │   ├── README.txt
+  │   ├── activity_labels.txt
+  │   ├── features.txt
+  │   ├── features_info.txt
+  │   ├── test
+  │   └── train
+  └── run_analysis.R
+  ```
+5. You can now run the R script in R: `source("run_analysis.R")`
 
 Note: The output of "run_analysis.R" is a txt file called "tidy.txt"
 
-For more data analysis and information about the variables in the dataset read the code book.
+For more information about the variables in the dataset, please read the code book.
