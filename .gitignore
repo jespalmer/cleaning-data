@@ -1,0 +1,5 @@
+*.zip
+*.csv
+.Rapp.history
+.DS_Store
+UCI HAR Dataset
