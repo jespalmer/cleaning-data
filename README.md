@@ -18,6 +18,6 @@ In order to run the script, you must first download the [Human Activity Recognit
 4. Move the "run_analysis.R" script to the same directory that you un-zipped the file, so it is in the root folder
 5. You can now run the R script
 
-Note: The output of "run_analysis.R" is a txt file called "tidy.txt"
+Note: The output of "run_analysis.R" is a txt file called "tidy.txt". Also, running the script will automatically download the necessary packages reshape2 and data.table, if you do not have them installed alredy.
 
 For more data analysis and information about the variables in the dataset read the code book.
