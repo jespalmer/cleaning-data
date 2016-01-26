@@ -8,7 +8,7 @@ Within this repo is a code book and one R script, "run_analysis.R", which does t
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
-5. From the dataset in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5. From the dataset in step 5, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 In order to run the script, you must first download the [Human Activity Recognition Using Smartphones Data Set] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). Here are the steps to getting set up:
 
