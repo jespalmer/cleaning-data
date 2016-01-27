@@ -30,4 +30,4 @@ In order to run the script, you must first download the [Human Activity Recognit
 
 Note: The output of `run_analysis.R` is a txt file called `tidy.txt`. Also, running the script will automatically download the necessary packages `reshape2` and `data.table`, if you do not have them installed already.
 
-For more information about the variables in the dataset, please read the code book.
+For more information about the variables in the dataset, please read the [code book](https://github.com/jespalmer/cleaning-data/blob/master/Codebook.md).
