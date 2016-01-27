@@ -75,6 +75,7 @@ activities <- read.table(list_files_activities[1])[,2]
 
 #remove extraneous symbols for easier reading
 activities <- tolower(gsub("_"," ", activities))
+activities <- gsub("ting|ing|stairs| ", "", activities)
 
 #change from numeric to factors for human readable data
 merged$activity <- factor(merged$activity, labels=activities)
